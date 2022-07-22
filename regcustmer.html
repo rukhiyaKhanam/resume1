@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>customer registrartion</title>
+    </head>
+    <body>
+        <center> 
+            <form>
+                <h1>CUSTOMER REGISTRATION FORM</h1>
+                Username:<input type="text"  pattern="[A-z a-z]+" placeholder="Enter Username" autofocus><br/><br/>
+                Password:<input type="password" placeholder="enter password"  pattern="{\^\d\w\d\$\}" minlength="8" maxlength="12"><br/> <br/>
+                email:<input type="email" placeholder="enter email"/><br/>
+                gender:
+                <input type="radio" name="r"/>male
+                <input type="radio" name="r"/>female
+                <input type="radio" name="r"/>others<br/><br/>
+               <label>age(years)</label> <input type="number" minlength="12" maxlength="60"/><br/>
+              <label>address</label>
+             <textarea rows="6" col="20">
+              </textarea><br/>
+              <label>company website</label>
+          <input type="url" name="url"/><br/>
+        <label>choose country</label>
+     <select>
+     <option value="ind">india</option>
+     <option value="jpn">japan</option>
+     <option value="usa">united states of america</option>
+     <option value="ger">germany</option>
+     </select><br/><br/>
+     <label>Date of journey:</label>
+     <input type="date" id="dof" name="doj"/><br/><br/>
+     <input type="submit" value="submit"/>
+     <input type="reset" value="reset"/>
+
+         </form>
+       </center>
+</body>
+</html>
+    
